@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'gulp' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'gulp', null ]
+5 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gulp',
+6 verbose parsed url   path: 'gulp',
+6 verbose parsed url   href: 'gulp' }
+7 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+8 silly lockFile 9750c68d-gulp gulp
+9 verbose lock gulp /root/.npm/9750c68d-gulp.lock
+10 silly lockFile 9750c68d-gulp gulp
+11 silly lockFile 9750c68d-gulp gulp
+12 verbose addNamed [ 'gulp', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 72f4391e-gulp gulp@
+15 verbose lock gulp@ /root/.npm/72f4391e-gulp.lock
+16 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+17 verbose url raw gulp
+18 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+19 verbose url resolved https://registry.npmjs.org/gulp
+20 info trying registry request attempt 1 at 23:05:23
+21 http GET https://registry.npmjs.org/gulp
+22 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+23 info trying registry request attempt 2 at 23:05:53
+24 http GET https://registry.npmjs.org/gulp
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+26 info trying registry request attempt 3 at 23:07:13
+27 http GET https://registry.npmjs.org/gulp
+28 silly lockFile 72f4391e-gulp gulp@
+29 silly lockFile 72f4391e-gulp gulp@
+30 error network getaddrinfo ENOTFOUND
+30 error network This is most likely not a problem with npm itself
+30 error network and is related to network connectivity.
+30 error network In most cases you are behind a proxy or have bad network settings.
+30 error network
+30 error network If you are behind a proxy, please make sure that the
+30 error network 'proxy' config is set properly.  See: 'npm help config'
+31 error System Linux 4.2.0-35-generic
+32 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "gulp"
+33 error cwd /home/justfantasy/web/isee
+34 error node -v v0.10.25
+35 error npm -v 1.3.10
+36 error syscall getaddrinfo
+37 error code ENOTFOUND
+38 error errno ENOTFOUND
+39 verbose exit [ 1, true ]
